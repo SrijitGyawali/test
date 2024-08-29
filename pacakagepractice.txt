@@ -1,0 +1,19 @@
+package main
+
+import (
+	"fmt"
+	"sort"
+)
+
+func main() {
+	//greeting := "Hello there!"
+	//fmt.Println(strings.Contains(greeting, "Hello"))
+	//fmt.Println(strings.Index(greeting, "ll"))
+	//fmt.Println(strings.ToUpper(greeting))
+
+	names := []string{"srijit", "golang", "python", "java", "C#"}
+	sort.Strings(names)
+	fmt.Println(names)
+
+	fmt.Println(sort.SearchStrings(names, "golang"))
+}

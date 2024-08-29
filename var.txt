@@ -1,0 +1,26 @@
+/*package main
+
+import "fmt"
+
+var a int
+
+var (
+	b float32
+	c string
+)
+
+func hello() {
+	a = 55243
+	b, c = 20.00, "srijit"
+	fmt.Println(int32(a), b, c)
+	fmt.Println("go" + "lang")
+	fmt.Println(true && false)
+	fmt.Println(true || false)
+	fmt.Println(len("SUII"))
+
+	var x int = 6
+	var y int = 4
+	fmt.Println(x / y)
+	fmt.Println(x % y)
+
+}

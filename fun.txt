@@ -1,0 +1,46 @@
+/*package main
+
+import (
+	"fmt"
+)
+
+/*  (( RETURN MULTIPLE))func plus(a int, b int) int {
+	return a + b
+}
+
+func plusPlus(a, b, c int) int {
+	return a + b + c
+}
+
+/*func main() {
+	res := plus(1, 2)
+	fmt.Println("1+2=", res)
+	res = plusPlus(1, 2, 3)
+	fmt.Println("1+2+3=", res)
+
+}
+*/
+/* ERROR FUNCTION
+func addSum(x float64, y float64) (ans float64, err error) {
+	if y == 0 {
+		return 0, fmt.Errorf("You can't divide by zero")
+	} else {
+		return x / y, nil
+	}
+
+}
+*/
+/*
+func main() {
+	i := 3
+	fmt.Println("Write", i, "as ")
+	switch i {
+	case 1:
+		fmt.Println("ONE")
+	case 2:
+		fmt.Println("TWO")
+	case 3:
+		fmt.Println("Three")
+
+	}
+}

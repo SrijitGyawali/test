@@ -1,0 +1,21 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	for i := 0; i < 5; i++ {
+		fmt.Println("Value of x is:", i)
+	}
+
+	names := []string{"Srijit", "SUii"}
+	for i := 0; i < len(names); i++ {
+		fmt.Println("My name is", names[i])
+	}
+
+	for index, value := range names {
+		fmt.Printf("The value at index %v is %v \n", index, value)
+	}
+
+}

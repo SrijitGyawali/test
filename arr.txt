@@ -1,0 +1,61 @@
+/*package main
+
+import (
+	"fmt"
+	"unicode/utf8"
+)
+
+func main() {
+	//var a [5]int
+	//fmt.Println("emp:", a)
+	//fmt.Println(len(a))
+
+	//b := [4]int{1, 2, 3, 4}
+	//fmt.Println(b)
+
+	/*var arr1 [5]int
+	arr1[0] = 1
+	arr2 := [5]int{1, 2, 3, 4, 5}
+	fmt.Println("Index:", arr1[0])
+	fmt.Println("LENGTH:", len(arr2))
+	for i := 0; i < len(arr2); i++ {
+		fmt.Println(arr2[i])
+	}
+
+	for i, v := range arr2 {
+		fmt.Printf("%d : %d", i, v)
+	}
+
+	arr3 := [2][2]int{
+		{1, 2},
+		{3, 4},
+	}
+
+	var arr4 [2][3]int
+
+	for i := 0; i < 2; i++ {
+		for j := 0; j < 3; j++ {
+			arr4[i][j] = i + j
+		}
+	}
+
+	fmt.Println(arr3)
+	fmt.Println(arr4)*/
+
+	//RUNES
+
+	/*rStr := "abcdefg"
+	fmt.Println("Rune Count:", utf8.RuneCountInString(rStr))
+	for i, runeVal := range rStr {
+		fmt.Printf("%d : %#U : %c", i, runeVal, runeVal)
+
+	}
+	/*formatted string
+	age := 15
+	name := "Srijit"
+	fmt.Printf("my name is %v and i'm %v years old \n", name, age)
+
+	var str = fmt.Sprintf("my age is %v my name is %v ", name, age)
+	fmt.Println(str)*/
+
+}/*/*
